@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: "Open Sans", sans-serif;
-    ;
 }
 
 /* Header */
@@ -15,7 +17,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0px;
+    padding: 30px 0px;
     background-color: #fff;
     position: sticky;
     top: 0;
@@ -68,10 +70,10 @@ header .navbar nav ul .contactbtn a {
 main .first-section {
     background-image: url(https://www.bytewiseltd.com/assets/img/hero-bg-4.jpg);
     background-size: cover;
-    background-position: 0 -230px;
+    background-position: 0 -180px;
     background-blend-mode: multiply;
     background-color: rgb(0, 0, 0, 0.7);
-    min-height: 70vh;
+    min-height: 84vh;
     display: flex;
     color: rgb(255, 255, 255);
     align-items: center;
@@ -108,29 +110,18 @@ main .second-section{
 
 .skewArea {
     transform: skewY(-3deg);
-    min-height: 63vh;
-    display: flex;
-    justify-content: center;
     background-color: rgba(0, 0, 0, 0.9);
-    position: relative;
+    height: 70vh;
 }
 
 .SkewContent {
-    display: flex;
-    justify-content: space-between;
-    padding: 70px 70px;
-    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 40px;
+    padding: 90px 70px;
     color: #fff;
     transform: skewY(3deg);
     color: hsla(0, 0%, 100%, 0.933);
-}
-
-.SkewContent>div{
-    width: 50%;
-}
-
-.firstPart{
-    padding: 50px;
 }
 
 .SkewContent h1{
@@ -149,19 +140,16 @@ main .second-section{
 }
 
 .secondPart{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 30px 10px;
 }
 
 .facts::before{
     content: "\9dee";
     font-size: 40px;
     color: aliceblue;
-}
-
-.SkewContent .secondPart>div{
-    width: 48%;
 }
 
 .SkewContent .secondPart .facts p{
@@ -178,13 +166,29 @@ main .second-section{
     color: wheat;
 }
 
+.third-section h3{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.third-section h3::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: aliceblue;
+}
+
 .third-section>div{
     width: 350px;
 }
 
 ol li{
     padding: 10px;
-    list-style: lower-roman;
+    list-style: none;
 }
 
 ol li a{

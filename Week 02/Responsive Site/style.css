@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 2px 2px 5px rgba(137, 43, 226, 0.367);
+}
+
+header .logo{
+    text-align: center;
+}
+
+header .logo img {
+    width: 60%;
+}
+
+header .navbar nav ul {
+    list-style: none;
+}
+
+header .navbar nav ul li {
+    display: inline-block;
+    padding: 7px 7px;
+}
+
+header .navbar nav ul li a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+header .navbar nav ul li:hover{
+    padding: 6px 7px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+}
+
+header .navbar nav ul .contactbtn {
+    background-color: brown;
+}
+
+header .navbar nav ul .contactbtn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+header .navbar nav ul .contactbtn a {
+    color: white;
+}
+
+/* First Section */
+
+main .first-section {
+    background-image: url(https://www.bytewiseltd.com/assets/img/hero-bg-4.jpg);
+    background-size: cover;
+    background-position: 0 -180px;
+    background-blend-mode: multiply;
+    background-color: rgb(0, 0, 0, 0.7);
+    min-height: 84vh;
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    opacity: 0.8;
+}
+
+main .first-section .content {
+    padding: 0 9%;
+    width: 950px;
+    z-index: 1;
+}
+
+main .first-section .content h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+main .first-section .content button {
+    margin-top: 20px;
+    padding: 15px 35px;
+    font-size: 18px;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    main .first-section .content h1 {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+    main .first-section .content h2{
+        font-size: 18px;
+    }
+}
+
+/* Second Section */
+
+main .second-section{
+    padding: 70px 0;
+}
+
+.skewArea {
+    transform: skewY(-3deg);
+    background-color: rgba(0, 0, 0, 0.9);
+    /* height: 70vh; */
+}
+
+@media screen and (min-width: 768px) {
+    .SkewContent {
+        display: grid;
+        grid-template-columns: 1fr 1.3fr;
+        gap: 40px;
+        color: #fff;
+    }
+}
+.SkewContent{
+    padding: 90px 70px;
+    color: hsla(0, 0%, 100%, 0.933);
+    transform: skewY(3deg);
+}
+
+.SkewContent h1{
+    font-size: 32px;
+    padding: 40px 0;
+}
+
+.SkewContent button{
+    margin-top: 35px;
+    padding: 10px 30px;
+    border: 2px solid green;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.822);
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+.secondPart{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 30px 10px;
+}
+
+.facts::before{
+    content: "\9dee";
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.SkewContent .secondPart .facts p{
+    color: hsla(0, 0%, 100%, 0.2);
+}
+
+/* third section */
+
+.third-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 70px 10px;
+    background-color: rgb(116, 71, 71);
+    color: wheat;
+}
+
+.third-section h3{
+    position: relative;
+    margin: 10px 0;
+    padding-bottom: 5px;
+}
+
+.third-section h3::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: aliceblue;
+}
+
+.third-section>div{
+    width: 350px;
+}
+
+ol li{
+    padding: 5px 10px;
+    list-style: none;
+}
+
+ol li a{
+    color: wheat;
+    text-decoration: none;
+}
+
+.forth input{
+    width: 65%;
+    padding: 12px;
+}
+
+.forth label{
+    padding: 14px;
+    background-color: brown;
+    color: white;
+}
+
+/* Footer */
+
+footer p{
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid blue;
+}

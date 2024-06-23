@@ -6,4 +6,7 @@
 
 🔔Week 01 (Day-4): CSS Properties
 
-🔔Week 01 (Day-5) : Basics of Git and GitHub
+🔔 Week 01 (Day-5) : Basics of Git and GitHub
+🔔 Week 02 (Day-1) : mastery Grid and flex
+🔔 Week 02 (Day-2) : Creating Responsive website
+🔔 Week 02 (Day-3) : Portfolio Website 

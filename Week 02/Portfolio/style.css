@@ -50,8 +50,8 @@ header ul {
 
 /* First Container */
 
-.profile-image {
-    width: 400px;
+.profile-image img{
+    width: 300px;
     height: 350px;
     object-fit: cover;
     overflow: hidden;
@@ -68,7 +68,7 @@ header ul {
         font-weight: 200;
     }
 
-    .profile-image {
+    .profile-image img{
         width: 550px;
         height: 500px;
         object-fit: cover;
@@ -98,7 +98,7 @@ header ul {
 .rings {
     height: 140px;
     width: 30%;
-    border: 1px solid rgba(255, 255, 255, 0.712);
+    border: 1px solid rgba(255, 255, 255, 0.312);
     padding: 40px;
     border-radius: 50%;
     margin-top: -120px;
@@ -156,6 +156,14 @@ header ul {
     grid-area: f;
 }
 
+.languages {
+    display: grid;
+    grid-template-areas:
+        'a b'
+        'c d' 
+        'e f';
+}
+
 @media screen and (min-width: 768px) {
     .languages {
         display: grid;
@@ -166,7 +174,7 @@ header ul {
 
     .secondring {
         top: -100px;
-        left: 1050px;
+        left: 70%;
     }
 }
 
@@ -211,10 +219,15 @@ header ul {
     grid-area: d;
 }
 
-
-.img-container img {
+/* 
+.img-container {
     width: 400px;
     height: 400px;
+} */
+
+.img-container img{
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -228,7 +241,7 @@ header ul {
         gap: 20px;
     }
     .img-container img {
-        width: 550px;
+        width: 98%;
         height: 500px;
         object-fit: cover;
     }

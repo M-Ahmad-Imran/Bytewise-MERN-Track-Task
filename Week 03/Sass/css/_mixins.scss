@@ -1,0 +1,19 @@
+@mixin flex($direction: row, $justify: flex-start, $align: stretch) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+  }
+  
+  @mixin respond-to($media) {
+    @if $media == 'tablet' {
+      @media screen and (min-width: 768px) {
+        @content;
+      }
+    }
+  }
+  
+  @mixin border-radius($radius) {
+    border-radius: $radius;
+  }
+  

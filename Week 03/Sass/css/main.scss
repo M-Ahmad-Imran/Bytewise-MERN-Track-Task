@@ -1,0 +1,255 @@
+@import "_variable";
+@import "_mixins";
+
+body {
+  background-color: $bg-color;
+  color: $text-color;
+  font-family: $font-family;
+}
+
+main {
+  margin: 0 7%;
+}
+
+/* Header */
+header {
+  text-align: center;
+
+  @include respond-to('tablet') {
+    margin: 0 12%;
+    font-size: 23px;
+    @include flex(row, space-between, center);
+  }
+
+  nav {
+    width: 20%;
+  }
+
+  ul {
+    padding: 20px;
+    list-style: none;
+    @include flex(row, space-between, center);
+    font-weight: 900;
+  }
+
+  .fa {
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: $highlight-color;
+  }
+}
+
+/* First Container */
+.profile-image {
+  img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    overflow: hidden;
+    text-align: center;
+  }
+}
+
+@include respond-to('tablet') {
+  .first-container {
+    @include flex(row, space-around);
+  }
+
+  .text-content {
+    h1 {
+      font-size: 62px;
+      font-weight: 200;
+    }
+  }
+
+  .profile-image {
+    img {
+      width: 550px;
+      height: 500px;
+      object-fit: cover;
+      overflow: hidden;
+    }
+  }
+
+  .contact {
+    .description {
+      width: 40%;
+    }
+  }
+}
+
+.text-content {
+  padding: 3% 0;
+
+  h2 {
+    font-weight: 100;
+    font-size: 32px;
+  }
+}
+
+/* Rings */
+.rings {
+  height: 140px;
+  width: 30%;
+  border: 1px solid $border-color;
+  @include border-radius(50%);
+  margin-top: -120px;
+  position: relative;
+  top: -400px;
+  left: -120px;
+}
+
+/* Description */
+.contact {
+  padding-bottom: 15px;
+  width: 80%;
+  border-bottom: 1px solid $highlight-color;
+  position: relative;
+  top: -55px;
+
+  .description {
+    p,
+    a {
+      padding: 10px 0;
+    }
+
+    a {
+      color: whitesmoke;
+      text-decoration: none;
+      border-bottom: 1px solid $highlight-color;
+    }
+  }
+}
+
+/* Languages */
+.languages {
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'c d' 
+    'e f';
+
+  &:nth-child(1) { grid-area: a; }
+  &:nth-child(2) { grid-area: b; }
+  &:nth-child(3) { grid-area: c; }
+  &:nth-child(4) { grid-area: d; }
+  &:nth-child(5) { grid-area: e; }
+  &:nth-child(6) { grid-area: f; }
+}
+
+@include respond-to('tablet') {
+  .languages {
+    grid-template-areas:
+      'a b c'
+      'd e f';
+  }
+
+  .secondring {
+    top: -100px;
+    left: 70%;
+  }
+}
+
+.lang {
+  padding: 5%;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+}
+
+/* Projects Section */
+.projects-container {
+  .title {
+    @include flex(row, center);
+    font-size: 28px;
+
+    h1 {
+      width: fit-content;
+      border-bottom: 2px solid wheat;
+    }
+  }
+
+  .projects {
+    &:nth-child(1) { grid-area: a; }
+    &:nth-child(2) { grid-area: b; }
+    &:nth-child(3) { grid-area: c; }
+    &:nth-child(4) { grid-area: d; }
+
+    @include respond-to('tablet') {
+      display: grid;
+      grid-template-areas:
+        'a b'
+        'c d';
+      padding: 100px 0;
+      gap: 20px;
+    }
+  }
+
+  .img-container {
+    img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+
+      @include respond-to('tablet') {
+        width: 98%;
+        height: 500px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: $footer-bg-color;
+  margin: 0 12px;
+  padding: 70px 20px;
+
+  @include respond-to('tablet') {
+    @include flex(row, space-around);
+
+    > div {
+      width: 30%;
+    }
+  }
+}
+
+.contact-info {
+  h1 {
+    font-size: 45px;
+    padding: 20px 0;
+  }
+}
+
+form {
+  label {
+    font-size: 18px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 7px;
+    background-color: transparent;
+    color: wheat;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+  }
+}
+
+#submit-btn {
+  @include flex(row, flex-end);
+
+  #sub-btn {
+    width: 220px;
+    color: white;
+    display: flex;
+    align-self: flex-end;
+    font-size: 25px;
+    cursor: pointer;
+  }
+}

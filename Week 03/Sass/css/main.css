@@ -1,0 +1,253 @@
+/* Variables */
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: rgba(245, 245, 245, 0.747);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+main {
+  margin: 0 7%;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  header {
+    margin: 0 12%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+header nav {
+  width: 20%;
+}
+header ul {
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 900;
+}
+header .fa {
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* First Container */
+.profile-image img {
+  width: 300px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .first-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  .text-content h1 {
+    font-size: 62px;
+    font-weight: 200;
+  }
+  .profile-image img {
+    width: 550px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    overflow: hidden;
+  }
+  .contact .description {
+    width: 40%;
+  }
+}
+.text-content {
+  padding: 3% 0;
+}
+.text-content h2 {
+  font-weight: 100;
+  font-size: 32px;
+}
+
+/* Rings */
+.rings {
+  height: 140px;
+  width: 30%;
+  border: 1px solid rgba(255, 255, 255, 0.312);
+  border-radius: 50%;
+  margin-top: -120px;
+  position: relative;
+  top: -400px;
+  left: -120px;
+}
+
+/* Description */
+.contact {
+  padding-bottom: 15px;
+  width: 80%;
+  border-bottom: 1px solid white;
+  position: relative;
+  top: -55px;
+}
+.contact .description p,
+.contact .description a {
+  padding: 10px 0;
+}
+.contact .description a {
+  color: whitesmoke;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+/* Languages */
+.languages {
+  display: grid;
+  grid-template-areas: "a b" "c d" "e f";
+}
+.languages:nth-child(1) {
+  grid-area: a;
+}
+.languages:nth-child(2) {
+  grid-area: b;
+}
+.languages:nth-child(3) {
+  grid-area: c;
+}
+.languages:nth-child(4) {
+  grid-area: d;
+}
+.languages:nth-child(5) {
+  grid-area: e;
+}
+.languages:nth-child(6) {
+  grid-area: f;
+}
+
+@media screen and (min-width: 768px) {
+  .languages {
+    grid-template-areas: "a b c" "d e f";
+  }
+  .secondring {
+    top: -100px;
+    left: 70%;
+  }
+}
+.lang {
+  padding: 5%;
+}
+.lang h1 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+/* Projects Section */
+.projects-container .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  font-size: 28px;
+}
+.projects-container .title h1 {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 2px solid wheat;
+}
+.projects-container .projects:nth-child(1) {
+  grid-area: a;
+}
+.projects-container .projects:nth-child(2) {
+  grid-area: b;
+}
+.projects-container .projects:nth-child(3) {
+  grid-area: c;
+}
+.projects-container .projects:nth-child(4) {
+  grid-area: d;
+}
+@media screen and (min-width: 768px) {
+  .projects-container .projects {
+    display: grid;
+    grid-template-areas: "a b" "c d";
+    padding: 100px 0;
+    gap: 20px;
+  }
+}
+.projects-container .img-container img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (min-width: 768px) {
+  .projects-container .img-container img {
+    width: 98%;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(44, 41, 41, 0.4);
+  margin: 0 12px;
+  padding: 70px 20px;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  .footer > div {
+    width: 30%;
+  }
+}
+
+.contact-info h1 {
+  font-size: 45px;
+  padding: 20px 0;
+}
+
+form label {
+  font-size: 18px;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 7px;
+  background-color: transparent;
+  color: wheat;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+}
+
+#submit-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+#submit-btn #sub-btn {
+  width: 220px;
+  color: white;
+  display: flex;
+  align-self: flex-end;
+  font-size: 25px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

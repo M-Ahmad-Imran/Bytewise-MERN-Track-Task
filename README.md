@@ -1,15 +1,16 @@
-**Bytewise Fellowship (MERN TRACK)**
+# ByteWise MERN Task Tracker
 
-🔔 Week 01 (Day-1) : Basics of HTML
+## INTRODUCTION
+Welcome to the Fellowship Program Repository. This repository contains all the resources, assignments, and tasks for the fellowship program. The goal is to facilitate learning and collaboration amoung fellows as they work through various projects and activities designed to enhance skills and knowledge.
 
-🔔Week 01 ( Day-2+3 ): CSS Basics and Styling Best Practices
+| Task Number | Week/Day      | Task Description      | Status  | Link to Task         |
+|-------------|---------------|-----------------------|---------|----------------------|
+| 1           | Week 1, Day 1 | 🔔 Basics of HTML        | Done    | [Link](#)            |
+| 2           | Week 1, Day 2 | 🔔 CSS Basics and Styling Best Practices | Done    | [Link](#)            |
+| 3           | Week 1, Day 3 | 🔔 CSS Properties| Done | [Link](#)            |
+| 4           | Week 1, Day 4 | 🔔 Basics of Git and GitHub | Done | [Link](#)            |
+| 5           | Week 2, Day 1 | 🔔 Mastery Grid and flex| Done | [Link](#)            |
+| 6           | Week 2, Day 2 | 🔔 Creating Responsive website | Done | [Link](#)            |
+| 7           | Week 2, Day 3 | 🔔 Portfolio Website | Done | [Link](#)            |
+| 8           | Week 3, Day 1 | 🔔 SASS syntax and Features | Done | [Link](#)            |
 
-🔔Week 01 (Day-4): CSS Properties
-
-🔔 Week 01 (Day-5) : Basics of Git and GitHub
-
-🔔 Week 02 (Day-1) : mastery Grid and flex
-
-🔔 Week 02 (Day-2) : Creating Responsive website
-
-🔔 Week 02 (Day-3) : Portfolio Website 

@@ -13,5 +13,5 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | 6           | Week 2, Day 2 | 🔔 Creating Responsive website | Done | [Link](#)            |
 | 7           | Week 2, Day 3 | 🔔 Portfolio Website | Done | [Link](#)            |
 | 8           | Week 3, Day 1 | 🔔 SASS syntax and Features | Done | [Link](#)            |
-| 8           | Week 3, Day 2+3 | 🔔 Tailwind Project | Done | [Link](#)            |
-| 8           | Week 3, Day 4+5 | 🔔 Tailwind Responsiveness | Done | [Link](#)            |
+| 9           | Week 3, Day 2+3 | 🔔 Tailwind Project | Done | [Link](#)            |
+| 10           | Week 3, Day 4+5 | 🔔 Tailwind Responsiveness | Done | [Link](#)            |

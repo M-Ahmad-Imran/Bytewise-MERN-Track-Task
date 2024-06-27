@@ -15,6 +15,18 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.gradient-text': {
+          background: 'linear-gradient(90deg, #c9ffbf, #ffafbd, #ffc3a0, #6a82fb, #fc5c7d)',
+          '-webkit-background-clip': 'text',
+          '-webkit-text-fill-color': 'transparent',
+          'background-clip': 'text',
+        },
+      }
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 }
 

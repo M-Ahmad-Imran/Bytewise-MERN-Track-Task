@@ -5,12 +5,13 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 
 | Task Number | Week/Day      | Task Description      | Status  | Link to Task         |
 |-------------|---------------|-----------------------|---------|----------------------|
-| 1           | Week 1, Day 1 | 🔔 Basics of HTML        | Done    | [Link](#)            |
-| 2           | Week 1, Day 2 | 🔔 CSS Basics and Styling Best Practices | Done    | [Link](#)            |
-| 3           | Week 1, Day 3 | 🔔 CSS Properties| Done | [Link](#)            |
-| 4           | Week 1, Day 4 | 🔔 Basics of Git and GitHub | Done | [Link](#)            |
+| 1           | Week 1, Day 1+2 | 🔔 Basics of HTML   | Done    | [Link](#)            |
+| 2           | Week 1, Day 3 | 🔔 CSS Basics and Styling Best Practices | Done    | [Link](#)            |
+| 3           | Week 1, Day 4 | 🔔 CSS Properties| Done | [Link](#) |
+| 4           | Week 1, Day 5 | 🔔 Basics of Git and GitHub | Done | [Link](#)            |
 | 5           | Week 2, Day 1 | 🔔 Mastery Grid and flex| Done | [Link](#)            |
 | 6           | Week 2, Day 2 | 🔔 Creating Responsive website | Done | [Link](#)            |
 | 7           | Week 2, Day 3 | 🔔 Portfolio Website | Done | [Link](#)            |
 | 8           | Week 3, Day 1 | 🔔 SASS syntax and Features | Done | [Link](#)            |
-
+| 9           | Week 3, Day 2+3 | 🔔 Tailwind Project | Done | [Link](#)            |
+| 10           | Week 3, Day 4+5 | 🔔 Tailwind Responsiveness | Done | [Link](#)            |

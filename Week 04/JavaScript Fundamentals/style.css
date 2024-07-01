@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: azure;
+}
+
+/* Header */
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(181, 86%, 20%);
+    color: aqua;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: hsla(214, 40%, 80%);
+}
+
+ul li a:hover {
+    border-bottom: 1px solid blueviolet;
+}
+
+/* main */
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    margin: 20px auto;
+    padding: 50px 10px;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.522);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1 {
+    font-size: 30px;
+}
+
+.calculator-section .input-container {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+}
+
+input {
+    width: 20%;
+}
+
+button {
+    padding: 10px;
+    color: aqua;
+    font-size: 21px;
+    font-weight: 700;
+    background-color: blueviolet;
+    border: 2px solid gray;
+}
+
+.discountAmount {
+    padding-top: 50px;
+}
+
+/* Stop Watch */
+
+#display {
+    font-size: 30px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>JavaScript Practice!</h1>
+        <nav>
+            <ul>
+                <li><a
+                        href="https://www.linkedin.com/in/muhammad-ahmad-b10b59207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/muhammad-ahmad-b10b59207/">Github</a></li>
+                <li><a href="https://m-ahmad-imran.github.io/MuhammadAhmad.com/">Portfolio</a></li>
+                <li><a href="mahmadimran1122@gmail.com">Email</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="calculator-section">
+            <h1>Calculate Your Discounted Price😉</h1>
+            <div class="input-container">
+                <label for="actualPrice">Actual Price:</label>
+                <input type="number" name="actualPrice" id="actualPrice" required>
+                <label for="discount">Discount (%):</label>
+                <input type="number" max="99" name="discount" id="discount" required>
+            </div>
+            <button onclick="DiscountCalculator()">Calculate</button>
+            <div class="discountAmount" id="discountAmount"></div>
+        </section>
+        <section class="stopwatch">
+            <div id="display">00:00:00</div><br>
+            <div class="btns">
+                <button id="startStop">Start 💥</button>
+                <button id="reset">Reset</button>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

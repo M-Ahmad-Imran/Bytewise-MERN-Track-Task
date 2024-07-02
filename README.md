@@ -15,3 +15,5 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | 8           | Week 3, Day 1 | 🔔 SASS syntax and Features | Done | [Link](#)            |
 | 9           | Week 3, Day 2+3 | 🔔 Tailwind Project | Done | [Link](#)            |
 | 10           | Week 3, Day 4+5 | 🔔 Tailwind Responsiveness | Done | [Link](#)            |
+| 10           | Week 4, Day 1 | 🔔 JS Fundamentals | Done | [Link](#)            |
+| 10           | Week 4, Day 2 | 🔔 DOM Manipulation | Done | [Link](#)            |

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    padding: 10px;
+    background-color: #806d6d;
+    color: aqua;
+    text-align: center;
+}
+
+section {
+    width: 550px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 25px;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 7px;
+    cursor: pointer;
+    border: 2px solid yellow;
+}
+
+#content {
+    margin: 30px 0;
+    padding: 30px;
+    border: 2px solid lightgreen;
+}
+
+img{
+    width: 100%;
+}

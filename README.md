@@ -17,4 +17,5 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | 10           | Week 3, Day 4+5 | 🔔 Tailwind Responsiveness | Done | [Link](#)            |
 | 11           | Week 4, Day 1 | 🔔 JS Fundamentals | Done | [Link](#)            |
 | 12           | Week 4, Day 2 | 🔔 DOM Manipulation | Done | [Link](#)            |
-| 13           | Week 4, Day 3 | 🔔 Asynchronous JS | In Progress | [Link](#)            |
+| 13           | Week 4, Day 3 | 🔔 Asynchronous JS | Done | [Link](#)            |
+| 14           | Week 4, Day 4 | 🔔 Arrow Functions | Added | [Link](#)            |

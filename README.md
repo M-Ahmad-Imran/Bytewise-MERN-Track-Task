@@ -18,4 +18,5 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | 11           | Week 4, Day 1 | 🔔 JS Fundamentals | Done | [Link](#)            |
 | 12           | Week 4, Day 2 | 🔔 DOM Manipulation | Done | [Link](#)            |
 | 13           | Week 4, Day 3 | 🔔 Asynchronous JS | Done | [Link](#)            |
-| 14           | Week 4, Day 4 | 🔔 Arrow Functions | Added | [Link](#)            |
+| 14           | Week 4, Day 4 | 🔔 Arrow Functions | Done | [Link](#)            |
+| 15           | Week 4, Day 5 | 🔔 Mini Project | Added | [Link](#)            |

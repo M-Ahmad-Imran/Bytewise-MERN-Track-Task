@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function in JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Functions in JavaScript 😋</h1>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="theory-contanier">
+                <div class="defination">
+                    <h2>What is Function?</h2>
+                    <p>
+                        A function in programming is a reusable block of code designed to perform a specific task.
+                        Functions
+                        can take inputs (known as parameters or arguments), process them, and often return an output.
+                        They help
+                        to modularize code, making it more readable, maintainable, and reusable.
+                    </p>
+                </div>
+
+                <h2>Key Characteristics of Functions</h2>
+                <ol>
+                    <li>
+                        <b>Name:</b> A function typically has a name that describes what it does. This helps in
+                        understanding and using
+                        the function.
+                    </li>
+                    <li>
+                        <b>Parameters:</b> Functions can accept inputs called parameters, which allow them to process
+                        data that is
+                        passed to them.
+                    </li>
+                    <li>
+                        <b>Body:</b> The body of a function contains the statements that define the task the function
+                        performs.
+                    </li>
+                    <li>
+                        <b>Return Value:</b> Functions can return a value after performing their task. If no value is
+                        returned, the
+                    </li>
+                </ol>
+                Function typically returns a special value like undefined in JavaScript.
+            </div>
+            <div class="syntax-container">
+                <h2>Syntax of function in JavaScript!</h2>
+                <p class="syntax">
+                    <i>Plain Function:</i><br>
+                    function name_of_function (parameters) { <br>
+                    //code to be executed<br>
+                    }
+                </p>
+                <p class="syntax">
+                    <i>Arrow Function:</i><br>
+                    const name_of_function = (parameters) => { <br>
+                    //code to be executed<br>
+                    }
+                </p>
+                <p class="syntax">
+                    <i>IIFE</i><br>
+                    (function() {<br> 
+                    //code to be executed<br>
+                    })();
+                </p>
+            </div>
+        </section><hr>
+        <section class="second-section">
+            <div class="example-container">
+                <div class="first">
+                    <h2>Plain Function</h2>
+                    <div class="code">
+                        function PlainFunction () { <br>
+                            console.log("Hello, I am Plain JS Function"); <br>
+                        } <br>
+                    </div>
+                    <button onclick="PlainFunction()">TRY IT</button>
+                    <div id="text0"></div>
+                </div>
+                <div class="second">
+                    <h2>Arrow Function</h2>
+                    <div class="code">
+                        const ArrowFunction = () => { <br>
+                            console.log("Hello, I am Arrow JS Function"); <br>
+                        } <br>
+                    </div>
+                    <button onclick="ArrowFunction()">TRY IT</button>
+                    <div id="text1"></div>
+                </div>
+                <div class="third">
+                    <h2>IIFE Function</h2>
+                    <div class="code">
+                        (function() { <br>
+                            console.log('This is an IIFE');<br>
+                        })();<br>
+                    </div>
+                    <button onclick="IIFEFunction()">TRY IT</button>
+                    <div id="text2"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

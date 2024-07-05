@@ -78,7 +78,7 @@ const content = () => {
 
     // Asyn/Await
 
-    function displayMessage(message) {
+    function displayMessage(threat) {
         return new Promise((resolve) => {
             setTimeout(() => {
                 document.body.style.backgroundColor = "Black";
@@ -90,17 +90,17 @@ const content = () => {
                 btn.style.backgroundColor = "black";
                 btn.innerText = "Hacked 😈"
 
-                const messageElement = document.createElement("div");
-                messageElement.textContent = message;
-                container.appendChild(messageElement);
+                const threatElement = document.createElement("div");
+                threatElement.textContent = threat;
+                container.appendChild(threatElement);
                 resolve();
             }, 2000);
         });
     }
 
-    async function displayMessages(messages) {
-        for (const message of messages) {
-            await displayMessage(message);
+    async function displayMessages(threats) {
+        for (const threat of threats) {
+            await displayMessage(threat);
         }
         const img = document.createElement('img');
         img.src = "hacker.jpg";

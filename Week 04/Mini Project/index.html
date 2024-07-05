@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="box">
+                <h1>Orgo Craving</h1>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="shop">
+            <div class="items">
+                <div class="item">
+                    <h2>Veg Soup</h2>
+                    <p>$10.00</p>
+                    <button class="add-to-cart" data-name="Veg Soup" data-price="10">Add to Cart</button>
+                </div>
+                <div class="item">
+                    <h2>Fruit juices</h2>
+                    <p>$15.00</p>
+                    <button class="add-to-cart" data-name="Fruit juices" data-price="15">Add to Cart</button>
+                </div>
+                <div class="item">
+                    <h2>Orgo Salad</h2>
+                    <p>$20.00</p>
+                    <button class="add-to-cart" data-name="Orgo Salad" data-price="20">Add to Cart</button>
+                </div>
+                <div class="item">
+                    <h2>Orgo salmon</h2>
+                    <p>$25.00</p>
+                    <button class="add-to-cart" data-name="Orgo salmon" data-price="25">Add to Cart</button>
+                </div>
+                <div class="item">
+                    <h2>Chia seeds</h2>
+                    <p>$30.00</p>
+                    <button class="add-to-cart" data-name="Chia seeds" data-price="30">Add to Cart</button>
+                </div>
+                <div class="item">
+                    <h2>Black beans</h2>
+                    <p>$35.00</p>
+                    <button class="add-to-cart" data-name="Black beans" data-price="35">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <h1>Shopping Cart</h1>
+            <ul id="cart-items">
+            </ul>
+            <p>Total: $<span id="total-price">0.00</span></p>
+            <button id="pay-button">Pay</button>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

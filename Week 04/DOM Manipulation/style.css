@@ -67,7 +67,7 @@ header {
     border-radius: 10px;
 }
 
-.tasks{
+#tasks{
     margin: 0 auto;
     width: 350px;
     display: none;

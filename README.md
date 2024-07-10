@@ -20,4 +20,4 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | 13           | Week 4, Day 3 | 🔔 Asynchronous JS | Done | [Link](#)            |
 | 14           | Week 4, Day 4 | 🔔 Arrow Functions | Done | [Link](#)            |
 | 15           | Week 4, Day 5 | 🔔 Mini Project | Done | [Link](#)            |
-| 16           | Week 5, Day 1 | 🔔 React Project | Added | [Link](#)            |
+| 16           | Week 5, Day 1 | 🔔 React Project | Done | [Link](#)            |

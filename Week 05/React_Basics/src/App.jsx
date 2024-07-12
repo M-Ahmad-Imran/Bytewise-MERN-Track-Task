@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className='text-slate-50'>
       <Header /><hr />
-      <div className="bg-slate-700 py-5 w-full flex justify-around box-border">
+      <div className="bg-slate-700 py-5 flex flex-wrap justify-around box-border">
         <Object />
         <Array />
         <ArrayOfObject />

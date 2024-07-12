@@ -1,7 +1,7 @@
 
 const Header = () => {
   return (
-    <header className="flex justify-around items-center p-4 bg-slate-700">
+    <header className="flex justify-around flex-wrap basis-2/4 items-center p-4 bg-slate-700">
       <div className="logo">
         <h1 className="text-4xl">REACT JS</h1>
       </div>

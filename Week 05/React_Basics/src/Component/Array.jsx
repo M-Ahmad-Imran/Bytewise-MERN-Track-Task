@@ -20,7 +20,7 @@ const Array = () => {
     }
 
     return (
-        <div className="w-full my-14 flex flex-col justify-center border p-11">
+        <div className="my-14 flex flex-col lg:lg:basis-[30.99%] justify-center border md:mx-0 mx-3  md:p-11 p-6">
             <h1 className="text-4xl p-3">TODO List Update View of Array in State</h1>
             <input 
                 type="text" 

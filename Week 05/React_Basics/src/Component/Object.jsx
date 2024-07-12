@@ -16,7 +16,7 @@ const Object = () => {
     }
 
     return (
-        <div className="w-full my-14 flex flex-col justify-center border p-11">
+        <div className="my-14 flex flex-col lg:basis-4/12 justify-center border md:mx-0 mx-3  md:p-11 p-6">
             <h1 className="text-4xl p-3">View of Object in State With onChange</h1>
             <ol>
                 <li className="m-2 p-3 bg-cyan-900 flex justify-between">Year:{mobile.year} <br /> Make:{mobile.make} <br /> Model:{mobile.model}</li>

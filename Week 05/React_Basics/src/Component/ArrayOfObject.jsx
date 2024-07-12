@@ -39,8 +39,8 @@ const ArrayOfObject = () => {
     }
 
     return (
-        <div className="w-full my-14 flex flex-col justify-center border p-11">
-            <h1 className="text-4xl p-3">TODO list Update View of Array of Object in State</h1>
+        <div className="my-14 flex flex-col lg:basis-4/12 justify-center border md:mx-0 mx-3  md:p-11 p-6">
+            <h1 className="text-4xl p-3">Update View of Array of Object in State</h1>
             <label>Year</label>
             <input
                 type="number"

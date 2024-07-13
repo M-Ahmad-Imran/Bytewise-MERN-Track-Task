@@ -6,7 +6,7 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | Task Number | Week/Day      | Task Description      | Status  | Link to Task         |
 |-------------|---------------|-----------------------|---------|----------------------|
 | 1           | Week 1, Day 1+2 | 🔔 Basics of HTML   | Done    | [Link](#)            |
-| 2           | Week 1, Day 3 | 🔔 CSS Basics and Styling Best Practices | Done    | [Link(#) |
+| 2           | Week 1, Day 3 | 🔔 CSS Basics and Styling Best Practices | Done    | [Link(#)] |
 | 3           | Week 1, Day 4 | 🔔 CSS Properties| Done | [Link](#) |
 | 4           | Week 1, Day 5 | 🔔 Basics of Git and GitHub | Done | [Link](#)            |
 | 5           | Week 2, Day 1 | 🔔 Mastery Grid and flex| Done | [Link](#)            |
@@ -20,4 +20,6 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | 13           | Week 4, Day 3 | 🔔 Asynchronous JS | Done | [Link](#)            |
 | 14           | Week 4, Day 4 | 🔔 Arrow Functions | Done | [Link](#)            |
 | 15           | Week 4, Day 5 | 🔔 Mini Project | Done | [Link](#)            |
-| 16           | Week 5, Day 1 | 🔔 React Project | Done | [Link](#)            |
+| 16           | Week 5, Day (1-3) | 🔔 React Project | Done | [Link](#)            |
+| 17           | Week 5, Day 4 | 🔔 Node Server | Done | [Link](#)            |
+| 18           | Week 5, Day 5 | 🔔 Practice Project | In Progress | [Link](#)            |

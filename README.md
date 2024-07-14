@@ -22,4 +22,4 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | 15           | Week 4, Day 5 | 🔔 Mini Project | Done | [Link](#)            |
 | 16           | Week 5, Day (1-3) | 🔔 React Project | Done | [Link](#)            |
 | 17           | Week 5, Day 4 | 🔔 Node Server | Done | [Link](#)            |
-| 18           | Week 5, Day 5 | 🔔 Practice Project | In Progress | [Link](#)            |
+| 18           | Week 5, Day 5 | 🔔 Practice Project | Done | [Link](#)            |

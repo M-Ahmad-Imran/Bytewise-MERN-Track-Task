@@ -27,4 +27,5 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | 20           | Week 6, Day 4 | 🔔 Express & MongoDB(Authentication) | Done | [Link](#)            |
 | 21           | Week 6, Day 5 | 🔔 Dream Tracker App | Done | [Link](#)            |
 | 22           | Week 7, Day 1 | 🔔 JWT Authentication | Done | [Link](#)            |
-| 23           | Week 7, Day 2+3 | 🔔 Redux Toolkit | Done | [Link](#)            |
+| 23           | Week 7, Day 2+3+4 | 🔔 Redux Toolkit | Done | [Link](#)            |
+| 24           | Week 7, Day 5 | 🔔 State Management | Done | [Link](#)            |

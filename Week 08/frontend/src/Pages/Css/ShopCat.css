@@ -1,0 +1,43 @@
+.cat-banner{
+    display: block;
+    margin: 30px auto;
+    width: 81%;
+}
+
+.shopCat-indexSort{
+    margin: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopCat-sort{
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.shopCat-indexSort p span{
+    font-weight: 600;
+}
+
+.shopCat-products{
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}
+
+.shopCat-loadMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: rgb(77, 58, 58);
+    color: rgb(175, 128, 128);
+    font-size: 22px;
+    font-weight: 500;
+}

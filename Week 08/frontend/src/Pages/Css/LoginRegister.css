@@ -1,0 +1,67 @@
+.loginregister{
+    width: 100%;
+    background: wheat;
+    padding: 100px;
+}
+
+.loginregister-cont{
+    width: 600px;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 40px 60px;
+}
+
+.loginregister-cont h1{
+    margin: 20px 0;
+}
+
+.loginSignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.loginSignup-fields input{
+    height: 52px;
+    width: 100%;
+    padding-left: 20px;
+    border: 2px solid wheat;
+    outline: none;
+    color: brown;
+    font-size: 16px;
+}
+
+.loginregister-cont button{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    color: white;
+    background: brown;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login{
+    margin-top: 20px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.login span{
+    color: brown;
+    font-weight: 600;
+}
+
+.agree{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    color: brown;
+    font-size: 18px;
+    font-weight: 500;
+}
+

@@ -1,0 +1,27 @@
+.famouse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+
+.famouse h1{
+    margin: 10px 0;
+    color: #171717;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.famouse hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.famouse-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}

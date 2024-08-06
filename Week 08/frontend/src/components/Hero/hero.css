@@ -1,7 +1,8 @@
 .hero {
-    height: 87vh;
-    background: linear-gradient(180deg, white, rgb(138, 18, 18));
+    height: 88vh;
+    background: linear-gradient(180deg, white, rgb(106, 150, 26));
     display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hero .left {

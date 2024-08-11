@@ -1,6 +1,6 @@
 .hero {
-    height: 88vh;
-    background: linear-gradient(180deg, white, rgb(106, 150, 26));
+    height: 88lvh;
+    background: linear-gradient(180deg, rgb(216, 200, 200), rgb(255, 255, 255));
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -31,4 +31,6 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | 24           | Week 7, Day 5 | 🔔 State Management | Done | [Link](#)            |
 | 25           | Week 8, Day 1+2 | 🔔 Revise and Decide Project | Done | [Link](#)            |
 | 26           | Week 8, Day (3-5) | 🔔 Project("Apna Store") | FrontEnd | [Link](#)            |
-| 27           | Week 9, Day 1 | 🔔 Cron Jobs | Done | [Link](#)            |
+| 27           | Week 9, Day 1+2 | 🔔 Cron Jobs | Done | [Link](#)            |
+| 28           | Week 9, Day 3+4 | 🔔 Deployment of Full Stack | Done | [Link](#)            |
+| 29           | Week 9, Day 6 | 🔔 Deploy Apna Store | Done | [Link](#)            |

@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './navbar.css'
+import { ShopContext } from '../../ContextAPI/ShopContext'
 
 const Navbar = () => {
 
   const [menu, setMenu] = useState("shop")
+  const { getTotalCartItem } = useContext(ShopContext)
+
 
   return (
     <div className='navbar'>
@@ -37,7 +40,7 @@ const Navbar = () => {
       <div className="nav-login-cart">
         <Link to={'/login'}><button>Login</button></Link>
         <Link to={'/cart'}>
-          <button>Cart<div className="nav-cart-count">0</div></button>
+          <button>Cart<div className="nav-cart-count">{getTotalCartItem()}</div></button>
         </Link>
       </div>
     </div>

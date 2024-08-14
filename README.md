@@ -33,4 +33,5 @@ Welcome to the Fellowship Program Repository. This repository contains all the r
 | 26           | Week 8, Day (3-5) | 🔔 Project("Apna Store") | FrontEnd | [Link](#)            |
 | 27           | Week 9, Day 1+2 | 🔔 Cron Jobs | Done | [Link](#)            |
 | 28           | Week 9, Day 3+4 | 🔔 Deployment of Full Stack | Done | [Link](#)            |
-| 29           | Week 9, Day 6 | 🔔 Deploy Apna Store | In Progress | [Link](#)            |
+| 29           | Week 9, Day 6 | 🔔 Deploy Apna Store | Done | [Link](#)            |
+| 30           | Week 10, Day 1+2 | 🔔 GraphQL | Done | [Link](#)            |
